@@ -22,7 +22,7 @@ nav {
 .logo h1 {
    text-transform: uppercase; 
    font-size: 30px;
-   color: darkblue;
+   color: rgb(219, 97, 15);
 }
 
 .ul-items{
@@ -37,7 +37,7 @@ nav {
 }
 
 .ul-items li a {
-    color: darkblue;
+    color: rgb(219, 97, 15);
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -52,6 +52,43 @@ nav {
 
 .humberger-menu .menu {
     font-size: 30px;
-    color: darkblue;
+    color: rgb(219, 97, 15);
     cursor: pointer;
+}
+.slider {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    z-index: 1;
+    transition: 1s ease;
+    right: -100%;
+}
+
+.slider .slider-ul{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    gap:4rem;
+
+}
+
+.slider-ul li {
+    width: 400px;
+    border: 2px solid #fff;
+    padding: 45px;
+}
+
+.slider-ul li a {
+text-decoration: none;
+font-size: 45px;
+color: #fff;
+}
+
+.slider-active {
+    right: 0;
 }

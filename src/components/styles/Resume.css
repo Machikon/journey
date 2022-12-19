@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lily+Script+One&family=Niramit&display=swap');
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color:black ;
+    border: 5px solid rgb(77, 140, 157);
+    font-family: 'Niramit', sans-serif;
+}
+.section-2 h1 {
+    color: rgb(219, 97, 15);
+    font-size: 25px;
+}
+.Resume {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    justify-content: space-between;
+
+}
+
+.image-cont img {
+    width: 620px;
+    border: 5px solid #fff;
+}
+
+.text-2 {
+   color: #ffff; 
+   font-size: 25px;
+   width: 25%;
+   line-height: 45px;
+   border: 2px solid #fff;
+   padding: 40px;
+}
+
+.text-2 h2 {
+    color: rgb(219, 97, 15);
+}
+
+.text-2 p {
+    border-top: 2px solid #fff;
+}
+.text-2a {
+    color: #fff;
+    font-size: 20px;
+    width: 25%;
+    line-height: 45px;
+    border: 2px solid #fff;
+    padding: 40px;
+}
+
+.text-2a h2 {
+    color: rgb(219, 97, 15);
+}
+.text-2a p {
+    border-top: 2px solid #fff;
+}

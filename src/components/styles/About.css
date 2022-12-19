@@ -3,7 +3,7 @@
 .main-section {
     width: 100%;
     height: 100vh;
-    background-color: lightgray;
+    background-color: black;
     font-family: 'Niramit', sans-serif;
     border: 7px solid rgb(77, 140, 157);
     overflow: hidden;
@@ -23,21 +23,21 @@
 }   
 
 .text h1 {
-    color: darkblue;
+    color: rgb(219, 97, 15);
     padding-bottom: 1rem;
 }
 
 .text .h1-big {
     font-size: 40px;
-    color: darkblue);
+    color: rgb(219, 97, 15);
 }
 
 .text p {
     border-top:2px solid gray ;
+    color: whitesmoke;
     padding-bottom: 2rem;
     width: 70%;
     font-size: 25px;
-
 }
 
 .image {

@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+     
+}
+
+.socialMedia {
+    color:rgb(219, 97, 15);
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.footer p{
+    color: black;
+}
+
+@media only screen and (max-width: 600px)

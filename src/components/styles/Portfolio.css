@@ -1,0 +1,73 @@
+/* .portfolio {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio .projectTitle {
+    text-align: center;
+    color: rgb(219, 97, 15);
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.projectList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    place-items: center;
+} */
+
+.Portfolio {
+    background-color: black;
+    color: rgb(219, 97, 15);
+    font-family: 'Niramit', sans-serif;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 7px solid rgb(77, 140, 157);
+}
+
+.Portfolio h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cart-container {
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart {
+    display: flex;
+    background-color: rgb(40, 39, 39);
+    color: #fff;
+    flex-direction: column;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+    width: 430px;
+    border: 4px solid #fff;
+    padding: 10px;
+}
+
+.cart img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.cart p {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(219, 97, 15);
+}
+

@@ -7,6 +7,13 @@
     font-family: 'Niramit', sans-serif;
 }
 
+.contact h1 {
+    color: rgb(219, 97, 15);
+    font-size: 25px;
+    text-align: center;
+
+}
+
 form {
     margin: 2rem;
     display: flex;

@@ -1,6 +1,4 @@
 import React from 'react';
-// import ProjectItem from './ProjectItem';
-// import { ProjectList } from '.helpers/ProjectList';
 
 import './styles/Portfolio.css';
 import Proj1 from './Assets/image1.jpg';
@@ -18,51 +16,51 @@ const Portfolio = () => {
 
             <div className='cart-container'>
                 <div className='cart'>
-                    <img src={Proj1} alt="" a href= "https://codescape.netlify.app" />
+                    <a href= "https://codescape.netlify.app" target="_blank">
+                    <img src={Proj1} alt="scenary"/>
                     <p>Codescape</p>
+                    </a>
                 </div>
 
                 <div className='cart'>
-                    <img src={Proj2} alt="" a href= "https://24rgraham.github.io/recipe-project/" />
+                    <a href= "https://24rgraham.github.io/recipe-project/" target="_blank">
+                    <img src={Proj2} alt="scenary"/>
                     <p>Recipe of the Day</p>
+                    </a>
                 </div>
 
                 <div className='cart'>
-                    <img src={Proj3} alt="" a href= "https://team7-wishlist-app.herokuapp.com/" />
+                    <a href= "https://team7-wishlist-app.herokuapp.com/" target="_blank">
+                    <img src={Proj3} alt="scenary"  />
                     <p>Ultimate Wishlist</p>
+                    </a>
                 </div>
 
                 <div className='cart'>
-                    <img src={Proj4} alt="" a href= "https://machikon.github.io/CodingQuestions/" />
+                    <a href= "https://machikon.github.io/CodingQuestions/" target="_blank">
+                    <img src={Proj4} alt="Ocean"  />
                     <p>Coding Questions</p>
+                    </a>
                 </div>
 
                 <div className='cart'>
-                    <img src={Proj5} alt="" a href= "https://github.com/Machikon/WorkDayScheduler" />
+                    <a href= "https://github.com/Machikon/WorkDayScheduler" target="_blank">
+                    <img src={Proj5} alt="Ocean"  />
                     <p>Workday Scheduler</p>
+                    </a>
                 </div>
 
                 <div className='cart'>
-                    <img src={Proj6} alt="" a href= " https://notes-project2.herokuapp.com" />
+                    <a href= " https://notes-project2.herokuapp.com" target="_blank">
+                    <img src={Proj6} alt="Ocean"  />
                     <p>Note Taker</p>
+                    </a>
                 </div>
                 
             </div>
 
         </section>
 
-//         <div className='portfolio'>
-//             <h1> My Projects</h1>
-//             <div className='projectList'>
-//                {ProjectList.map((project) => {
-//                 return <ProjectItem name={project.name} image={project.image} />;
-//                })}
-             
-
-
-//             </div>
-
-//         </div>
     )
 }
 

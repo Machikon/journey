@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 
@@ -11,11 +12,12 @@ import Footer from './components/Footer';
 
 ReactDOM.render(
 <Router>
+    
   <Routes>
     <Route path='/' element= {<App/>} />
-    {/* <Route path='/portfolio' element={<Portfolio />}/> */}
     <Route path='/contact' element={<Contact/>} />
     <Route path='/resume' element={<Resume/> } />
+    <Route path='/portfolio' element={<Portfolio/>} />
 
   </Routes>
     <Footer />

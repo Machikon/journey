@@ -21,11 +21,11 @@ const Header = () => {
 
        <ul className='ul-items'>
             <li>
-                <Link to="#">About Me</Link>
+                <Link to="/about">About Me</Link>
             </li>
 
             <li>
-                <Link to="#">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
             </li>
 
             <li>

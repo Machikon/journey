@@ -46,11 +46,11 @@ nav {
     border-bottom:3px solid #000;
 }
 
-.humberger-menu {
+.hamburger-menu {
     display: flex;
 }
 
-.humberger-menu .menu {
+.hamburger-menu .menu {
     font-size: 30px;
     color: rgb(219, 97, 15);
     cursor: pointer;

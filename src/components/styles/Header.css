@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lily+Script+One&family=Niramit&display=swap');
+
+.header {
+    width: 100%;
+    font-family: 'Niramit', sans-serif;
+    position:absolute ;
+}
+
+nav {
+    height: 5em;
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.logo h1 {
+   text-transform: uppercase; 
+   font-size: 30px;
+   color: darkblue;
+}
+
+.ul-items{
+   display: flex; 
+   list-style: none;
+   align-items: center;
+}
+
+.ul-items li {
+    margin-right: 3.5rem;
+
+}
+
+.ul-items li a {
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ul-items li a:hover {
+    border-bottom:3px solid #000;
+}
+
+.humberger-menu {
+    display: flex;
+}
+
+.humberger-menu .menu {
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+}

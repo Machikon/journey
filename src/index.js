@@ -7,6 +7,7 @@ import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import About from './components/About';
 
 
 
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Header />
   <Routes>
     <Route path='/' element= {<App/>} />
+    <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact/>} />
     <Route path='/resume' element={<Resume/> } />
     <Route path='/portfolio' element={<Portfolio/>} />

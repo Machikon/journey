@@ -1,18 +1,3 @@
-# Description
-I created this portfolio with React js to showcase my React skills with some of my projects completed during the bootcamp.
-Viewers will first land on the About Me page. There is a navbar, containing the links to my portfolio, contact, and resume. In the portfolio page, viewers will be able to see my deployed projects by clicking on the images or titles. Contact page will require for viewers to input requested information. Otherwise, a message will pop-up. Resume page has a link to downloadable document. In the footer section, viewers will find social media icons.  Each icon will direct the to my profile page.
-
-## Technologies used
-React, CSS, MUI, EmailJS, NPM
-
-## Screenshot (Home page)
-About Me: ![image](https://user-images.githubusercontent.com/106935371/208563722-e144d7a2-de76-4e71-9384-54d71c1e23ed.png)
-Portfolio: ![image](https://user-images.githubusercontent.com/106935371/208566205-b2c375a7-cb88-4e97-b379-0c653a931003.png)
-Contact: ![image](https://user-images.githubusercontent.com/106935371/208566416-62821001-5b6c-4f3d-8a6d-54eebc6a31e6.png)
-Resume: ![image](https://user-images.githubusercontent.com/106935371/208566711-f3a2833c-bae3-4414-b5ac-bfbf593f7e4d.png)
-
-***********************************************************************************************************************************************************************
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

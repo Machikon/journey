@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/journey/static/css/main.e2ef9830.css",
+    "main.js": "/journey/static/js/main.685d3e9e.js",
+    "static/media/MachikoC.JPG": "/journey/static/media/MachikoC.aeaac8679044c90bb25a.JPG",
+    "static/media/MC_resume.pdf": "/journey/static/media/MC_resume.70c9820241c5b1ed6ff0.pdf",
+    "static/media/image2.jpg": "/journey/static/media/image2.34fae4fddd223f51adf6.jpg",
+    "static/media/image5.jpg": "/journey/static/media/image5.d34b8882b2fa53d44384.jpg",
+    "static/media/image3.jpg": "/journey/static/media/image3.c864b630e86a564acdc1.jpg",
+    "static/media/image1.jpg": "/journey/static/media/image1.97590367ae416fc7f224.jpg",
+    "static/media/image4.jpg": "/journey/static/media/image4.f6c419f7c71b0686cbdb.jpg",
+    "static/media/image6.jpg": "/journey/static/media/image6.8ec08d4e97cc2283a492.jpg",
+    "static/media/Work.jpg": "/journey/static/media/Work.5e2edb7a30caa4fd485b.jpg",
+    "index.html": "/journey/index.html",
+    "main.e2ef9830.css.map": "/journey/static/css/main.e2ef9830.css.map",
+    "main.685d3e9e.js.map": "/journey/static/js/main.685d3e9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2ef9830.css",
+    "static/js/main.685d3e9e.js"
+  ]
+}

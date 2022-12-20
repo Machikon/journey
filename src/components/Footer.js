@@ -10,12 +10,21 @@ function Footer () {
         <div className='footer'>
             <div className='socialMedia' />
             <div>
-                <TwitterIcon a href="https://twitter.com/Mushimon22"  />
-                <GitHubIcon a href="https://github.com/Machikon" />
-                <LinkedInIcon a href= "https://www.linkedin.com/in/machikonn/" />
 
-                 </div>   
-            <p> &copy; 2022 Machiko Carroll</p>
+                <a href="https://twitter.com/Mushimon22" target="_blank" className='social-media'>
+                <h4><TwitterIcon /></h4>
+                </a>
+
+                <a href="https://github.com/Machikon" target="_blank" className='social-media'>
+                <h4><GitHubIcon  /></h4>
+                </a>
+                
+                <a href="https://www.linkedin.com" target="_blank" className='social-media'>
+                <h4><LinkedInIcon /></h4>
+                </a>
+                
+
+            </div>   
 
         </div>
     )

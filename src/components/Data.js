@@ -1,25 +1,25 @@
-import { ClassNames } from "@emotion/react"
+
 
 export const Data = [
     {
         text: 'About',
         path: '/',
-        ClassName: 'data-item'
+        className: 'data-item',
     },
     {
         text: 'Portfolio',
         path: '/portfolio',
-        ClassName: 'data-item'
+        className: 'data-item',
     },
     {
         text: 'Contact',
         path: '/contact',
-        ClassName: 'data-item'
+        className: 'data-item',
     },
     {
         text: 'Resume',
         path: '/resume',
-        ClassName: 'data-item'
+        className: 'data-item'
     },
 
 ]

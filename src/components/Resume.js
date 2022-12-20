@@ -1,12 +1,15 @@
 import React from "react";
 import './styles/Resume.css';
+import pdf from './Assets/MC_resume.pdf';
 import Work from './Assets/Work.jpg';
 
 const Resume = () => {
+
     return(
         <section className="section-2">
             <h1 className="Resume">Resume</h1>   
-
+            <a href={pdf} target="_blank">Download PDF</a>
+            
             <div className="container-2">
                 <div className="image-cont">
                     <img src={Work} alt="" />

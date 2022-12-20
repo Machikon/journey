@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom'
 import './styles/Header.css';
 import { Data } from './Data';
 
+
 const Header = () => {
 
     const [open, setOpen] = useState (false)
+  
     const showMenu = () => {
         setOpen(!open)
     }
@@ -36,11 +38,11 @@ const Header = () => {
                 <Link to="/resume">Resume</Link>
             </li>
 
-            <div className="hamburger-menu">
+            {/* <div className="hamburger-menu">
 
-                <MenuOutlined className="menu" onClick={showMenu}/>
+                <MenuOutlined className="menu"/>
 
-                </div> 
+                </div>  */}
 
        </ul>
 

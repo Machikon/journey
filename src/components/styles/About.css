@@ -53,3 +53,7 @@
   width: 500px;
   object-fit: contain;
 }
+
+@media only screen and (max-width: 600px){
+    
+}

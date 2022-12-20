@@ -6,13 +6,14 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 
 
 
 ReactDOM.render(
 <Router>
-    
+    <Header />
   <Routes>
     <Route path='/' element= {<App/>} />
     <Route path='/contact' element={<Contact/>} />

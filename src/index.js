@@ -11,12 +11,11 @@ import About from './components/About';
 
 
 
-
 ReactDOM.render(
 <Router>
     <Header />
   <Routes>
-    <Route path='/' element= {<App/>} />
+    <Route path='/journey' element= {<App/>} />
     <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact/>} />
     <Route path='/resume' element={<Resume/> } />
